@@ -11,20 +11,12 @@
 namespace CurrencyConverter {
 	
 	
-	public partial class Default {
+	public partial class ShowSettings {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl Para1;
+		protected System.Web.UI.HtmlControls.HtmlGenericControl AppName;
 		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl Para2;
-		
-		protected System.Web.UI.HtmlControls.HtmlInputText Input1;
-		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl Output1;
-		
-		protected System.Web.UI.HtmlControls.HtmlInputText Input2;
-		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl Output2;
+		protected System.Web.UI.HtmlControls.HtmlGenericControl AppAuthor;
 	}
 }

@@ -41,6 +41,7 @@
     <Content Include="images\pic2.png" />
     <Content Include="ImageControl.aspx" />
     <Content Include="images\meal.png" />
+    <Content Include="ShowSettings.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -63,6 +64,12 @@
     </Compile>
     <Compile Include="ImageControl.aspx.designer.cs">
       <DependentUpon>ImageControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowSettings.aspx.cs">
+      <DependentUpon>ShowSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowSettings.aspx.designer.cs">
+      <DependentUpon>ShowSettings.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
