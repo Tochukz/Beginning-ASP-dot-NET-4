@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="Home" description="Home Page" url="~/default.aspx" >
+      <siteMapNode title="About" description="About Us" url="~/aboutus.aspx">
+        <siteMapNode title="Our Model" description="About Business Model" url="~/businessmodel.aspx" />
+        <siteMapeNode title="Our Success" description="Our  Successes" url="~/successstory.aspx" />
+      </siteMapNode>
+      <siteMapNode title="Prodcuts" descirption="Product">
+        <siteMapNode title="In Stock" description="Products that are in Stock" url="instock.aspx" />
+        <siteMapeNode title="Out of Stock" description="Products that are out of stock" url="outofstock.aspx" />
+      </siteMapeNode>
+   </siteMapNode>
+</siteMap>
