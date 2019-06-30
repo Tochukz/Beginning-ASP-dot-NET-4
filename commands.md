@@ -45,3 +45,13 @@ public partial class ConvertPage
 }
 ```
 This is useful for dynamic control creation.  
+
+**Application Event**  
+You can't handle application events in the code behind for a web form. Instead, you need the help of the _global.asax_ file.   
+The global.asax file allows you to write code that responds to global application events.  
+
+### Chapter 6: Web Controls
+HTML server controls, are less important for web forms development.
+You’ll only use them if you’re migrating an existing HTML page to the ASP.NET world,
+or if you need to have fine-grained control over the HTML code that will be generated and sent to
+the client.  
