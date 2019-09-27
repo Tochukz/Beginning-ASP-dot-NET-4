@@ -1,13 +1,5 @@
-﻿<%@ Page Language="C#" Inherits="SiteMapApp.Default" %>
-<!DOCTYPE html>
-<html>
-<head runat="server">
-	<title>Default</title>
-</head>
-<body>
-	<form id="form1" runat="server">
-        <asp:SiteMapDatasSource id="SiteMapDataSource1" runat="server" />
-		<asp:Button id="button1" runat="server" Text="Click me!" OnClick="button1Clicked" />
-	</form>
-</body>
-</html>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="SiteMapApp.Default" Title="Home Page" %>
+<asp:Content id="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">    
+  <br /><br />
+  You are currently on the defahlt.aspx page (Home).  
+</asp:Content>

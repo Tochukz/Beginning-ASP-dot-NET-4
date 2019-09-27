@@ -11,8 +11,12 @@
 namespace SiteMapApp {
 	
 	
-	public partial class Default {
+	public partial class MasterPage {
 		
-		protected System.Web.UI.WebControls.Content Content1;
+		protected System.Web.UI.WebControls.TreeView TreeView1;
+		
+		protected System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+		
+		protected System.Web.UI.WebControls.SiteMapDataSource SiteMapDataSource1;
 	}
 }

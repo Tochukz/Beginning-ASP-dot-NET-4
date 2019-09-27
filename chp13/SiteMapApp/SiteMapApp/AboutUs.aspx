@@ -1,11 +1,5 @@
-﻿<%@ Page Language="C#" Inherits="SiteMapApp.AboutUs" %>
-<!DOCTYPE html>
-<html>
-<head runat="server">
-	<title>AboutUs</title>
-</head>
-<body>
-	<form id="form1" runat="server">
-	</form>
-</body>
-</html>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="AboutUs.aspx.cs" Inherits="SiteMapApp.AboutUs" Title="About Us" %>
+<asp:Content id="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br /><br />
+    Youb are currently on the Aboutus.aspx page (About us).
+</asp:Content>

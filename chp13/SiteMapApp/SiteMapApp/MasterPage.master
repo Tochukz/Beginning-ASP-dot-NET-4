@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" Inherits="SiteMapApp.MasterPage" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<title>MasterPage</title>
+</head>
+<body>
+<div id="container">
+<form runat="server">
+    <table>
+     <tr>
+       <td style="width: 226px;vertical-align: top;">
+          <asp:TreeView id="TreeView1" DataSourceID="SiteMapDataSource1" runat="server"/>          
+       </td>                   
+       <td style="vertical-align: top">
+          <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />                    
+       </td>
+     </tr>                 
+   </table>
+   <asp:SiteMapDataSource id="SiteMapDataSource1" ShowStartingNode="false" runat="server" />
+</form>
+</div>
+</body>
+</html>
+
+
+<!--
+The three navigation controls are:
+1. Tree View
+2. Menu
+3. SiteMapPath
+-->
